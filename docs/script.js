@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // ...existing code...
 
     // Project card expand/collapse
     document.querySelectorAll('.project-card-header').forEach(header => {
@@ -57,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.setAttribute('aria-expanded', expanded);
             this.blur();
         });
-        // Optional: allow keyboard toggle
+        // Allow keyboard toggle
         header.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
