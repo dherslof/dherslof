@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>dherslof - Personal Page</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+   <header class="header">
+      <nav class="navbar">
+         <div class="navbar-logo">Daniel Herslöf</div>
+      </nav>
+   </header>
+
+   <div class="main-wrapper">
+      <!-- Vertical Navigation Menu -->
+      <aside class="sidebar-nav-container">
+         <ul class="sidebar-nav-menu">
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#journey">My Journey</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </aside>
+
+      <main class="content-area">
+         <section id="landing" class="section landing-section">
+            <div class="container landing-content">
+               <div class="landing-text">
+                  <div class="social-icons">
+                     <a href="https://github.com/dherslof" target="_blank"><i class="fab fa-github"></i></a>
+                     <a href="https://linkedin.com/in/danielherslöf target="_blank"><i class="fab fa-linkedin"></i></a>
+                     <a href="mailto:d_herslof@hotmail.com"><i class="fas fa-envelope"></i></a>
+                  </div>
+                  <h1>I am Daniel Herslöf,</h1>
+                  <p class="tagline">a curious software engineer working with embedded systems in the automotive industry. Driven by curiosity and a passion for smart, efficient solutions, I bring focus, performance and real value to my work!</p>
+                  <div class="landing-buttons">
+                     <a href="#journey" class="btn btn-primary">My Journey</a>
+                  </div>
+               </div>
+               <div class="landing-image">
+                  <img src="https://placehold.co/400x400/22223b/e0e0e0?text=Profile+Pic" alt="Jonathan Doe" class="profile-pic">
+               </div>
+            </div>
+         </section>
+
+         <section id="news" class="section news-section">
+            <div class="container">
+               <h2 class="section-title">Latest Updates</h2>
+               <p class="section-intro">
+                  Here I share content about my projects, events I'm attending or just stuff I find interesting.
+               </p>
+               <div class="news-grid">
+                  <article class="news-card">
+                     <h3>Excited to launch the first version of this site!</h3>
+                     <p class="news-date"><i class="fas fa-calendar-alt"></i> August 07, 2025</p>
+                     <p>I set out to create a clean, modern page as a simplified version of my personal CV. While web development isn’t my main thing, I’m happy with how it turned out — looks pretty good, if you ask me! For now, it's hosted via GitHub Pages.</p>
+                     <!-- TODO: Add this back when I have a page to attach it to <a href="#" class="read-more">Read More</a> -->
+                  </article>
+                  <!--
+                  <article class="news-card">
+                     <h3>HEADER</h3>
+                     <p class="news-date"><i class="fas fa-calendar-alt"></i> July 10, 2025</p>
+                     <p>TEXT BODY</p>
+                     <a href="#" class="read-more">Read More</a>
+                  </article>
+                  <article class="news-card">
+                     <h3>HEADER</h3>
+                     <p class="news-date"><i class="fas fa-calendar-alt"></i> July 10, 2025</p>
+                     <p>TEXT BODY</p>
+                     <a href="#" class="read-more">Read More</a>
+                  </article>
+                  -->
+               </div>
+            </div>
+         </section>
+
+         <section id="projects" class="section projects-section">
+            <div class="container">
+               <h2 class="section-title">My Projects</h2>
+               <p class="section-intro">
+                  Home projects worth displaying.
+               </p>
+               <div class="project-grid">
+                  <div class="project-card">
+                     <!-- <img src="personal-page-pics/time-butler-project-pic.png" alt="Project 1" class="project-image"> -->
+                     <img src="personal-page-pics/time-butler-project-pic.png" alt="Project 1" class="project-image project-image-full">
+                     <div class="project-card-header" tabindex="0" role="button" aria-expanded="false">
+                        <h3>Time-Butler</h3>
+                        <span class="project-toggle-icon"><i class="fas fa-plus"></i></span>
+                     </div>
+                     <div class="project-details">
+                        <p class="project-description">Personal time report utility which helps you keep track of where you spend your time. Track and generate time reports for your work day or project. Fully written in Rust. </p>
+                        <p class="project-tech"><strong>Tech Stack:</strong> Rust</p>
+                        <a href="https://github.com/dherslof/time-butler" class="btn btn-outline">View Project</a>
+                     </div>
+                  </div>
+                  <div class="project-card">
+                     <img src="personal-page-pics/rc-project-pic.png" alt="Project 1" class="project-image">
+                     <div class="project-card-header" tabindex="0" role="button" aria-expanded="false">
+                        <h3>Racing Companion</h3>
+                        <span class="project-toggle-icon"><i class="fas fa-plus"></i></span>
+                     </div>
+                     <div class="project-details">
+                        <p class="project-description">Racing Companion helps racing enthusiasts manage maintenance work and track days for their racing vehicles with an intuitive and powerful interface.</p>
+                        <p class="project-tech"><strong>Tech Stack:</strong> Python</p>
+                        <a href="https://github.com/dherslof/RacingCompanion" class="btn btn-outline">View Project</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section id="journey" class="section journey-section">
+               <div class="container">
+                  <h2 class="section-title">My Journey</h2>
+                  <p class="section-intro">
+                     Professional journey highlights.
+                  </p>
+                  <div class="timeline">
+                        <div class="timeline-item">
+                           <div class="timeline-dot"></div>
+                           <div class="timeline-content">
+                              <h3>Embedded Software Engineer</h3>
+                              <h4>Volvo Cars</h4>
+                              <p class="date-range">April 2023 - Present</p>
+                              <p>Development of chassis control system with Autosar & QNX</p>
+                           </div>
+                        </div>
+                        <div class="timeline-item">
+                           <div class="timeline-dot"></div>
+                           <div class="timeline-content">
+                              <h3>Embedded Software Engineer</h3>
+                              <h4>Volvo Cars</h4>
+                              <p class="date-range">May 2021 - April 2023</p>
+                              <p>Development of GNSS positioning service in the telematics module & connectivity related services on the infotainment system using embedded Linux and Android automotive</p>
+                           </div>
+                        </div>
+                        <div class="timeline-item">
+                           <div class="timeline-dot"></div>
+                           <div class="timeline-content">
+                              <h3>Embedded Software Engineer</h3>
+                              <h4>Stoneridge Electronics</h4>
+                              <p class="date-range">August 2017 - May 2021</p>
+                              <p>Embedded Linux development of telematics platform & mirror replacement system</p>
+                           </div>
+                        </div>
+                        <div class="timeline-item">
+                           <div class="timeline-dot"></div>
+                           <div class="timeline-content">
+                              <h3>Bachelor of Science in Mechanical Engineering with track robotics & mechatronics</h3>
+                              <h4>KTH, Royal institute of Technology</h4>
+                              <p class="date-range">2018</p>
+                              <p>Thesis work at Terco I&S AB with the result of a major upgrade of an automatic material testing machine intended for laborations in a school environment. Task included
+                                 programming of microprocessor, user interface, signal processing, electronic and hydraulic hardware design.</p>
+                           </div>
+                        </div>
+                  </div>
+               </div>
+            </section>
+
+            <section id="skills" class="section skills-section">
+               <div class="container">
+                  <h2 class="section-title">Skills & Experience</h2>
+                  <p class="section-intro">
+                     A brief overview of my core technical experience and expertise related to software development.
+                  </p>
+                  <div class="skills-container">
+                     <div class="skills-group">
+                        <h3>Technical Focus Areas</h3>
+                        <div class="skills-grid">
+                           <div class="skill-item">
+                              <i class="fa-solid fa-car"></i>
+                              <span class="skill-text">Automotive Architectures</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fa-solid fa-microchip"></i>
+                              <span class="skill-text">Embedded Systems</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fa-solid fa-wifi"></i>
+                              <span class="skill-text">Connectivity</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="skills-group">
+                        <h3>Embedded Ecosystems & Tooling</h3>
+                        <div class="skills-grid">
+                           <div class="skill-item">
+                              <i class="devicon-linux-plain"></i>
+                              <span class="skill-text">Linux</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-android-plain"></i>
+                              <span class="skill-text">Android automotive</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-cmake-plain"></i>
+                              <span class="skill-text">CMake, make</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fa-solid fa-gears"></i>
+                              <span class="skill-text">Yocto Project</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fab fa-git-alt"></i>
+                              <span class="skill-text">Git</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="skills-group">
+                        <h3>Programming Languages</h3>
+                        <div class="skills-grid">
+                           <div class="skill-item">
+                              <i class="devicon-c-plain"></i>
+                              <span class="skill-text">C</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-cplusplus-plain"></i>
+                              <span class="skill-text">C++</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-rust-plain"></i>
+                              <span class="skill-text">Rust</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-bash-plain"></i>
+                              <span class="skill-text">Bash</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="devicon-python-plain"></i>
+                              <span class="skill-text">Python</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="skills-group">
+                        <h3>Experience</h3>
+                        <div class="skills-grid">
+                           <div class="skill-item">
+                              <i class="fa-solid fa-business-time"></i>
+                              <span class="skill-text">+8 years in automotive</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fa-solid fa-users"></i>
+                              <span class="skill-text">Product owner expertise</span>
+                           </div>
+                           <div class="skill-item">
+                              <i class="fa-solid fa-globe"></i>
+                              <span class="skill-text">Global team collaboration</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section id="contact" class="section">
+               <div class="container">
+                  <h2 class="section-title">Get in Touch</h2>
+                  <div class="contact-layout">
+                        <div class="contact-info-block">
+                           <h3>Contact Information</h3>
+                           <p><i class="fas fa-envelope icon-spacing"></i> <a href="mailto:d_herslof@hotmail.com">d_herslof@hotmail.com</a></p>
+                           <p><i class="fab fa-github icon-spacing"></i> <a href="https://github.com/dherslof" target="_blank">github.com/dherslof</a>
+                           <p><i class="fab fa-linkedin icon-spacing"></i> <a href="https://linkedin.com/in/danielherslöf" target="_blank">linkedin.com/in/danielherslöf</a></p>
+                              <p><i class="fas fa-map-marker-alt"></i> Gothenburg, Sweden</p>
+                        </div>
+                        <div class="contact-form-block">
+                           <h3>Send Me a Message</h3>
+                           <form class="contact-form">
+                              <div class="form-group">
+                                 <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+                              </div>
+                              <div class="form-group">
+                                 <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
+                              </div>
+                              <div class="form-group">
+                                 <input type="text" id="contact-subject" name="subject" placeholder="Subject">
+                              </div>
+                              <div class="form-group">
+                                 <textarea id="contact-message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Send Message</button>
+                           </form>
+                        </div>
+                  </div>
+               </div>
+            </section>
+
+      </main>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <p>&copy; 2025 dherslof. All rights reserved.</p>
+      </div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
